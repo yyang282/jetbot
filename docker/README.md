@@ -29,7 +29,8 @@ JETBOT_BASE_IMAGE not found for 32.6.1.  Please manually set the JETBOT_BASE_IMA
 In the case of ``32.6.1``, the following container will work :
 
 ```bash
-export JETBOT_BASE_IMAGE=nvcr.io/nvidia/l4t-pytorch:r32.6.1-pth1.9-py3
+# export JETBOT_BASE_IMAGE=nvcr.io/nvidia/l4t-pytorch:r32.6.1-pth1.9-py3
+export JETBOT_BASE_IMAGE=nvcr.io/nvidia/l4t-pytorch:l4t-pytorch:r35.1.0-pth1.13-py3
 ```
 
 Refer to ``https://ngc.nvidia.com/catalog/containers/nvidia:l4t-pytorch`` for more details.
